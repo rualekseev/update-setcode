@@ -29,7 +29,7 @@ async function main() {
         updateId : updateId
     }).sendExternal({ publicKey : signer2!.publicKey});
 
-    console.log('confirm tx2: ', updReq2.transaction.id.hash);
+    console.log('confirm tx2:', updReq2.transaction.id.hash);
 }
       
 

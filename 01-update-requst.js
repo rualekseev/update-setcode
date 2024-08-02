@@ -150,7 +150,7 @@ function myApp() {
                     console.log('Send update request');
                     return [4 /*yield*/, setcodeContract.methods.submitUpdate({
                             codeHash: "0x".concat(updateSetcodeCodehash),
-                            reqConfirms: 0,
+                            reqConfirms: newRegConfirm,
                             owners: newOwners.map(function (item) { return "0x".concat(item); })
                         }).sendExternal({
                             publicKey: publicKey
