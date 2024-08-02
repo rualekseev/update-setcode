@@ -1,0 +1,11 @@
+pragma ever-solidity  ^0.70.0;
+// pragma AbiHeader expire;
+// pragma AbiHeader pubkey;
+
+
+contract Template {
+
+    constructor() {
+        tvm.accept();
+    }
+}

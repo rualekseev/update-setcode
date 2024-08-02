@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "everscale-inpage-provider": "^0.3.66",
+    "everscale-standalone-client": "^2.1.26"
+  },
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "typescript": "^5.5.4"
+  }
+}
