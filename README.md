@@ -7,7 +7,7 @@ cp .env.template .env
 
 2. install 
 ```
-npm -ci
+npm ci
 ```
 
 3. send update request:
@@ -28,6 +28,8 @@ node 03-execute-update.js
 ```
 
 # Deploy old setcode and test it.
+
+If you need to deploy old setcode for tests
 
 1. go to contracts folder:
 ```
@@ -58,4 +60,8 @@ npx locklift deploy -n ever_mainnet_gql
 npx locklift run  -n ever_mainnet_gql -s scripts/02-confirm-update.ts
 ```
 
+6. update contract
+```
+node 03-execute-update.js
+```
 
