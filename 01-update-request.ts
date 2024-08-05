@@ -117,7 +117,7 @@ async function myApp() {
     console.log('Send update request');
 
     const tx = await  setcodeContract.methods.submitUpdate({
-        codeHash: `0x${updateSetcodeCodehash}`,
+        codeHash: `0x${setcodeCodehash}`,
         reqConfirms: newRegConfirm,
         owners: newOwners.map(item => `0x${item}`)
     }).sendExternal({

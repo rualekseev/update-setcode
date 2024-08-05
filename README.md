@@ -12,7 +12,7 @@ npm ci
 
 3. send update request:
 ```
-node 01-update-requst.js
+node 01-update-request.js
 ```
 
 4. check status:
